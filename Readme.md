@@ -1,5 +1,7 @@
 # Firebase User Management and Notes API
 
+> A robust REST API service hosted at [@intellectworks.onrender.com](https://intellectworks.onrender.com/) that provides seamless user management and note-taking capabilities powered by Firebase. Built with Node.js and Firebase Admin SDK, it offers secure authentication, user CRUD operations, and personal note management with a clean, well-documented API interface.
+
 ## Overview
 
 This project provides a simple API built using Node.js and Firebase Admin SDK for user management and note storage. It allows users to sign up, update their information, delete their accounts, and manage personal notes. The application is designed with robust validation and error handling for seamless functionality.
