@@ -23,7 +23,7 @@ This project provides a simple API built using Node.js and Firebase Admin SDK fo
 ## Prerequisites
 
 - Node.js installed (version 14 or higher recommended).
-- Firebase Admin SDK credentials file (`firebase-creds.json`).
+- Environment variables configured with Firebase Admin SDK credentials.
 - Firebase project configured with Authentication and Firestore.
 
 ---
@@ -43,8 +43,12 @@ This project provides a simple API built using Node.js and Firebase Admin SDK fo
    npm install
    ```
 
-3. **Add Firebase credentials:**
-   Place your Firebase Admin SDK JSON file (`firebase-creds.json`) in the root directory.
+3. **Configure environment variables:**
+   Create a `.env` file in the root directory and add your Firebase configuration:
+
+   ```
+   FIREBASE_CONFIG={"type":"service_account","project_id":"..."}
+   ```
 
 4. **Start the server:**
 
