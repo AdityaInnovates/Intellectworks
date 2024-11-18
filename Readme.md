@@ -53,7 +53,7 @@ This project provides a simple API built using Node.js and Firebase Admin SDK fo
 4. **Start the server:**
 
    ```bash
-   node index.js
+   node app.js
    ```
 
    The server runs on `http://localhost:3000`.
