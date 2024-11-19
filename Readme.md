@@ -52,10 +52,16 @@ This project provides a simple API built using Node.js and Firebase Admin SDK fo
    FIREBASE_CONFIG={"type":"service_account","project_id":"..."}
    ```
 
-4. **Start the server:**
+4. **Build the server:**
 
    ```bash
-   node app.js
+   npm run build
+   ```
+
+5. **Start the server:**
+
+   ```bash
+   npm run start
    ```
 
    The server runs on `http://localhost:3000`.
