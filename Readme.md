@@ -225,6 +225,7 @@ Users
 - **Backend Framework:** Express.js
 - **Database:** Firebase Firestore
 - **Authentication:** Firebase Admin SDK
+- **Language:** Typescript
 
 ---
 
